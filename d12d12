@@ -1,0 +1,286 @@
+Autoexec De Summer :D
+
+w// # Opciones de lanzamiento del juego:
+
+-lv -novid +mat_motion_blur_percent_of_screen_max 0 -nocrashdialog +dsp_enhance_stereo 1
+
+// Sensibilidad en el juego //
+
+sensitivity			"4.95"
+
+c_thirdpersonshoulderoffset 0;
+c_thirdpersonshoulderaimdist 720;
+c_thirdpersonshoulderheight 10;
+c_thirdpersonshoulderdist 40;
+cam_ideallag 0;
+cam_idealdelta 4;
+cam_idealpitch 0;
+cam_idealyaw 0;
+
+alias togglezoom.off "alias up invprev; alias down invnext; alias togglezoom togglezoom.on; echo [l4d_ca: thirdpersonshoulder mode off ]";
+alias togglezoom.on "alias up zoom.in; alias down zoom.out; up; down; alias togglezoom togglezoom.off; echo [l4d_ca: thirdpersonshoulder mode on ]";
+
+alias zoom.25 "cam_idealdist 30; alias zoom.in zoom.30; alias zoom.out zoom.30";
+alias zoom.30 "cam_idealdist 30; alias zoom.in zoom.25; alias zoom.out zoom.35";
+alias zoom.35 "cam_idealdist 35; alias zoom.in zoom.30; alias zoom.out zoom.40";
+alias zoom.40 "cam_idealdist 40; alias zoom.in zoom.35; alias zoom.out zoom.45";
+alias zoom.45 "cam_idealdist 45; alias zoom.in zoom.40; alias zoom.out zoom.50";
+alias zoom.50 "cam_idealdist 50; alias zoom.in zoom.45; alias zoom.out zoom.55";
+alias zoom.55 "cam_idealdist 55; alias zoom.in zoom.50; alias zoom.out zoom.60";
+alias zoom.60 "cam_idealdist 60; alias zoom.in zoom.55; alias zoom.out zoom.65";
+alias zoom.65 "cam_idealdist 65; alias zoom.in zoom.60; alias zoom.out zoom.70";
+alias zoom.70 "cam_idealdist 70; alias zoom.in zoom.65; alias zoom.out zoom.75";
+alias zoom.75 "cam_idealdist 75; alias zoom.in zoom.70; alias zoom.out zoom.80";
+alias zoom.80 "cam_idealdist 80; alias zoom.in zoom.75; alias zoom.out zoom.85";
+alias zoom.85 "cam_idealdist 85; alias zoom.in zoom.80; alias zoom.out zoom.90";
+alias zoom.90 "cam_idealdist 90; alias zoom.in zoom.85; alias zoom.out zoom.95";
+alias zoom.95 "cam_idealdist 95; alias zoom.in zoom.90; alias zoom.out zoom.100";
+alias zoom.100 "cam_idealdist 100; alias zoom.in zoom.95; alias zoom.out zoom.105";
+alias zoom.105 "cam_idealdist 105; alias zoom.in zoom.100; alias zoom.out zoom.110";
+alias zoom.110 "cam_idealdist 110; alias zoom.in zoom.105; alias zoom.out zoom.115";
+alias zoom.115 "cam_idealdist 115; alias zoom.in zoom.110; alias zoom.out zoom.120";
+alias zoom.120 "cam_idealdist 120; alias zoom.in zoom.115; alias zoom.out zoom.125";
+alias zoom.125 "cam_idealdist 125; alias zoom.in zoom.120; alias zoom.out zoom.130";
+alias zoom.130 "cam_idealdist 130; alias zoom.in zoom.125; alias zoom.out zoom.135";
+alias zoom.135 "cam_idealdist 135; alias zoom.in zoom.130; alias zoom.out zoom.140";
+alias zoom.140 "cam_idealdist 140; alias zoom.in zoom.135; alias zoom.out zoom.145";
+alias zoom.145 "cam_idealdist 145; alias zoom.in zoom.140; alias zoom.out zoom.150";
+alias zoom.150 "cam_idealdist 150; alias zoom.in zoom.145; alias zoom.out zoom.155";
+alias zoom.155 "cam_idealdist 155; alias zoom.in zoom.150; alias zoom.out zoom.160";
+alias zoom.160 "cam_idealdist 160; alias zoom.in zoom.155; alias zoom.out zoom.165";
+alias zoom.165 "cam_idealdist 165; alias zoom.in zoom.160; alias zoom.out zoom.170";
+alias zoom.170 "cam_idealdist 170; alias zoom.in zoom.165; alias zoom.out zoom.175";
+alias zoom.175 "cam_idealdist 175; alias zoom.in zoom.170; alias zoom.out zoom.180";
+alias zoom.180 "cam_idealdist 180; alias zoom.in zoom.175; alias zoom.out zoom.185";
+alias zoom.185 "cam_idealdist 185; alias zoom.in zoom.180; alias zoom.out zoom.190";
+alias zoom.190 "cam_idealdist 190; alias zoom.in zoom.185; alias zoom.out zoom.195";
+alias zoom.195 "cam_idealdist 195; alias zoom.in zoom.190; alias zoom.out zoom.200";
+alias zoom.200 "cam_idealdist 200; alias zoom.in zoom.195; alias zoom.out zoom.205";
+alias zoom.205 "cam_idealdist 200; alias zoom.in zoom.200; alias zoom.out zoom.200";
+
+togglezoom.off; c_thirdpersonshoulder 0;
+defaultzoom;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ //GLOWS
+ 
+ 
+cl_glow_ability_b "0.55";cl_glow_ability_g "0.29";cl_glow_ability_r "0.35"
+cl_glow_ghost_infected_b 0.5450980392156862;cl_glow_ghost_infected_g 0.5411764705882353;cl_glow_ghost_infected_r 1
+cl_glow_infected_r 0; cl_glow_infected_g 0; cl_glow_infected_b 1
+cl_glow_infected_vomit_b 1;cl_glow_infected_vomit_g 0;cl_glow_infected_vomit_r 1
+cl_glow_item_b 1;cl_glow_item_g 0.5;cl_glow_item_r 0.2
+cl_glow_item_far_b 0.5;cl_glow_item_far_g 1;cl_glow_item_far_r 0.2
+cl_glow_survivor_r 1;cl_glow_survivor_g 0.2;cl_glow_survivor_b 1
+cl_glow_survivor_health_high_r 0; cl_glow_survivor_health_high_g 1; cl_glow_survivor_health_high_b 0
+cl_glow_survivor_health_med_r 1; cl_glow_survivor_health_med_g 1; cl_glow_survivor_health_med_b 0
+cl_glow_survivor_health_low_b 0.0;cl_glow_survivor_health_low_g 0.25;cl_glow_survivor_health_low_r 0.70
+cl_glow_survivor_hurt_r 1; cl_glow_survivor_hurt_g 1; cl_glow_survivor_hurt_b 1
+cl_glow_survivor_vomit_r 1; cl_glow_survivor_vomit_g 0; cl_glow_survivor_vomit_b 1
+cl_glow_thirdstrike_item_r 0.3411764705882353; cl_glow_thirdstrike_item_g 0; cl_glow_thirdstrike_item_b 0.2111664705882242
+cl_glow_survivor_health_bleed_pulse_amount 0;cl_glow_survivor_health_bleed_pulse 0
+cl_glow_survivor_health_include_buffer 0
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+bind "TAB" "+showscores_custom";	// Rebinds TAB to a custom script adding the netgraph to the scoreboard. (Default: +showscores)
+
+net_graphpos "10000";			// Places the netgraph in the bottom left corner, together with the scoreboard. (Default: 1)
+net_scale "15";				// Reduces the sizes of the netgraph bars. (Default: 5)
+net_graphshowlatency "0";		// Disables displaying of the latency graph. (Default: 1)
+net_graphshowinterp "0";		// Disables displaying of the interpolation graph. (Default: 1)bind "TAB" "+showscores_custom";	// Rebinds TAB to a custom script adding the netgraph to the scoreboard. (Default: +showscores)
+
+
+alias "+showscores_custom" "+showscores;net_graph 4";
+alias "-showscores_custom" "-showscores;net_graph 0";
+
+//MOUSE
+m_filter                        "0"       // Removes mouse input lag           
+m_filter2                       "0"       // Removes mouse input lag           
+m_customaccel                   "0"       // Remove accel              
+m_mouseaccel1                   "0"       // Remove accel              
+m_mouseaccel2                   "0"       // Remove accel              
+m_mousespeed                    "0"       // Force windows mouse accel
+m_customaccel_exponent          "0"       // Mouse move is raised to this power before being scaled by scale factor
+m_customaccel_max               "0"       // Max mouse move scale factor, 0 for no limit
+m_customaccel_scale             "0"       // Custom mouse acceleration value   
+m_rawinput                      "1"       // Ignores the Mouse Driver and Windows Settings
+
+// LERPS & RATES //
+//# > Ajustes para 128Tick w/ 0 lerp (funciona para cualquier tickrate de cualquier forma.)
+
+cl_interp_ratio                 "-1"
+cl_interp                       "0.0"
+rate                            "128000"
+cl_resend                       "1.5"
+cl_timeout                      "15"    
+net_maxroutable                 "1280"
+net_splitrate                   "2"
+net_splitpacket_maxrate         "50000"
+net_graphshowlatency            "0"
+budget_show_history             "0"
+
+// VIDEO SETTINGS
+
+cl_autohelp                     "0"       // Desactiva la auto ayuda
+cl_showhelp                     "0"       // Desactiva la ayuda del juego
+cc_subtitles                    "0"       // No Subtitulo
+c_thirdpersonshoulder           "0"       // Bloquea el 3era persona
+cl_ragdoll_limit                "0"       // Remueve Los Cuerpos de los zombis muertos,para un juego mas limpio
+cl_forcepreload                 "1"       // Precarga los niveles por completo en la RAM, reduce la tartamudez en el juego
+cl_detail_max_sway              "0"       // Amplitud del balanceo del puntal de detalle
+cl_lagcompensation		"1"  
+cl_clearhinthistory             "1"
+cl_detail_avoid_force           "0"
+cl_detail_avoid_radius          "0"
+cl_detail_avoid_recover_speed   "0"
+cl_predictweapons		"1"
+cl_particle_fallback_base 	"3"
+cl_particle_fallback_multiplier "2"
+
+r_dynamic                       "0"       // Deshabilita las sombras dinámicas                   
+r_PhysPropStaticLighting        "0"       // Iluminación más rápida en objetos físicos
+r_ambientfraction               "0.2"     // Fracción de iluminación directa utilizada para potenciar la iluminación cuando el modelo lo solicita
+r_radiosity 			"4"
+r_cheapwaterend                 "9999"       // Peor rendimiento de agua
+r_cheapwaterstart               "9999"       // Peor rendimiento de agua 2
+r_skyboxfogfactor               "0.0"       // Skybox empaña
+r_eyemove                       "0"       // Deshabilita el movimiento de los ojos de los sobrevivientes
+r_eyemove                       "0"       // Deshabilita el movimiento de los ojos de los sobrevivientes          
+r_eyeshift_z                    "0"       // Deshabilita el movimiento de los ojos de los sobrevivientes
+r_eyeshift_y                    "0"       // Deshabilita el movimiento de los ojos de los sobrevivientes
+r_eyeshift_x                    "0"       // Deshabilita el movimiento de los ojos de los sobrevivientes
+r_eyesize 			"0"
+r_shadowfromanyworldlight       "0" 
+r_shadowdist 			"200" 
+r_shadowrendertotexture 	"0"
+r_shadows 			"1"   
+r_flashlightdepthtexture 	"0"
+r_shadowfromworldlights 	"0"
+r_rainparticledensity 		"0.35"
+
+mat_bloom_scalefactor_scalar    "0"       // Desactiva la escala de floración
+mat_grain_scale_override        "0"       // Desactiva el efecto de granulado de pelicula.         
+mat_viewportscale               "1"                        
+mat_hdr_enabled                 "0"            
+mat_queue_mode                  "2"
+mat_monitorgamma                "1.6"    // Aumenta el brillo   
+mat_monitorgamma_tv_enabled     "1.6"    // Aumenta el brillo
+mat_showmiplevels 		"0"
+mat_hdr_level 			"0"
+mat_queue_mode 			"2"
+mat_queue_report 		"0"
+mat_grain_enable 		"0"
+mat_local_contrast_enable 	"0"
+mat_disable_bloom 		"1"
+mat_vignette_enable 		"0"
+mat_phong 			"0"
+
+motd_enabled "0"
+
+fog_enable                      "0"
+fog_enable_water_fog            "0"
+fps_max                         "0"
+func_break_max_pieces           "0"       // Reduce los escombros
+gameinstructor_enable           "0"       // Inhabilitar instructor de juego
+muzzleflash_light               "1"       // Se supone que para eliminar los disparos
+z_wound_client_disabled         "1"       // Deshabilita que infectados comunes no se mutilen al dispararles
+z_increment_lower               "1" 
+z_decals                        "1"
+                                             
+cl_ragdoll_limit                "99999"                                                                                                                   
+texture_budget_background_alpha "999"
+texture_budget_panel_height     "0"
+texture_budget_panel_width      "0"
+overview_health                 "1"
+overview_names                  "1"
+sv_consistency                  "0"
+sv_cheats                       "1"
+sv_lan                          "0"
+spec_allowroaming               "1"
+con_enable                      "1"
+mp_disable_autokick             "1"
+sv_minrate                      "25000"
+sv_mincmdrate                   "67"
+sv_maxcmdrate                   "101"
+sv_maxrate                      "100000"    
+dsp_slow_cpu 			"1"
+system_level 			"0"
+-----------------------------------------------------------------------------------------------------------------
+
+// Ambientación
+
+cl_ragdoll_limit                "0"   
+cl_forcepreload                 "1"
+cl_detail_max_sway              "0"
+r_cheapwaterend                 "1"    // Peor rendimiento del agua
+r_cheapwaterstart               "1"    // Peor rendimiento del agua 2
+r_skyboxfogfactor               "0"    // Skybox nieblas
+r_eyemove                       "0"    // Desactiva el movimiento ocular de los supervivientes
+r_eyemove                       "0"    // Desactiva el movimiento ocular de los supervivientes        
+r_eyeshift_z                    "0"    // Desactiva el movimiento ocular de los supervivientes
+r_eyeshift_y                    "0"    // Desactiva el movimiento ocular de los supervivientes
+r_eyeshift_x                    "0"    // Desactiva el movimiento ocular de los supervivientes
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// BINDS FUNCIONALES
+
+bind "z" "+left"
+bind "c" "+right"
+
+bind "MWHEELDOWN" "+jump"
+bind "SPACE" "+jump"
+ 
+bind "6" "say_team Go go longings"
+bind "7" "say_team Help! Help!"
+bind "8" "say_team Back! Back!"
+bind "g" "sm_pause"
+bind "v" "sm_tank"
+bind "b" "sm_health"
+bind "n" "sm_mvp"
+bind "j" "record 1; stop"
+bind "F10" "disconnect"
+bind "F8" "toggleconsole"
+bind "k" "toggle fov_desired 75 115"
+bind "MOUSE3" "toggle cl_viewmodelfovsurvivor 33 75 110 180"
+-----------------------------------------------------------------------------------------------------------------------------------------
+// Ajustes del Crosshair
+
+crosshair "1"                                           // Por defecto 1 -  Habilita el crosshair
+cl_crosshair_alpha "255"                                // Por defecto 255 - Recomendado dejarlo asi
+cl_crosshair_thickness "1"                              // Por defecto 2; Coloca el grosor del Crosshair (Recomiendo valores entre '2' y '4')
+cl_crosshair_dynamic "0"                                // Por defecto 1; Deshabilita la mira dinamica (la que esta por defecto en el juego) 
+cl_crosshair_blue 255
+cl_crosshair_green 255
+cl_crosshair_red 255
+cl_colorbind 0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+bind w +mfwd
+bind s +mback
+bind a +mleft
+bind d +mright
+alias +mfwd "-back;+forward;alias checkfwd +forward"
+alias +mback "-forward;+back;alias checkback +back"
+alias +mleft "-moveright;+moveleft;alias checkleft +moveleft"
+alias +mright "-moveleft;+moveright;alias checkright +moveright"
+alias -mfwd "-forward;checkback;alias checkfwd none"
+alias -mback "-back;checkfwd;alias checkback none"
+alias -mleft "-moveleft;checkright;alias checkleft none"
+alias -mright "-moveright;checkleft;alias checkright none"
+alias checkfwd none
+alias checkback none
+alias checkleft none
+alias checkright none
+alias none ""
+
+// Font 
+
+alias reloadfont "mat_setvideomode 800 600 1; mat_setvideomode 800 600 0"
+reloadfont
+
+clear
+echo "=============================================================";
+echo "                                                             ";
+echo "         # P R O S C R I P T S   L O A D E D                 ";
+echo "                                                             ";
+echo "=============================================================";
+
+    
